@@ -1,0 +1,24 @@
+li a {
+    color: black;
+    padding:10vh;
+    
+    
+}
+.a-header{
+    color: white;
+}
+
+header{
+background-color:brown ;
+}
+
+main{
+    border: 1px solid yellow;
+    background-color: black;
+    height: 60vh;
+}
+footer{
+    border: 2px solid black;
+    height: 15vh;
+    background-color: yellow;
+}
