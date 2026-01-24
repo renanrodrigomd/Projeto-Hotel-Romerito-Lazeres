@@ -1,24 +1,41 @@
-li a {
-    color: black;
-    padding:10vh;
-    
-    
-}
-.a-header{
-    color: white;
+h1{
+color: rgb(11, 166, 161);
+text-align: center;
+font-size: 80px;
+font-style: inherit;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+position: relative;
 }
 
+.Titulo{
+    position: relative;
+    margin-top: -65px;
+    margin-right: -250px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 184, 184);
+}
+
+
+
 header{
-background-color:brown ;
+background-color: blue;
+height: 20vh;
+}
+
+ header img{
+height: 250px;
+width: 100%;
+display: inline-block;
+margin-top: -79vh;
 }
 
 main{
-    border: 1px solid yellow;
+    
     background-color: black;
-    height: 60vh;
+    height: 55vh;
 }
 footer{
-    border: 2px solid black;
+    
     height: 15vh;
     background-color: yellow;
 }
