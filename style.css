@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 header{
     background-color: rgba(222, 184, 135, 0.455);
     border: 8px solid;
@@ -6,20 +13,20 @@ header{
 }
 main{
     background-color: rgba(222, 184, 135, 0.455);
-    height: 39vh;
+    height: 49vh;
     border: 6px solid;
     border-color: rgba(216, 152, 69, 0.904);
 }
 footer{
 border: 2px  solid rgba(194, 144, 90, 0.316);
 background-color: rgba(175, 111, 43, 0.31);
-height: 29vh;
+height: 20vh;
+
 }
 
 #main_div{
     display: flex; 
 }
-
 
 h1{
 color: rgba(166, 114, 11, 0.389);
@@ -33,9 +40,10 @@ a{
     float: left;
     margin-top: 0px;
     background-color: rgba(255, 253, 250, 0.582);
-    margin-left: 350px;
+    margin-left: 10px;
+    padding-left: 10px;
     border: 2px solid white;
-    font-size: 28px;
+    font-size: 25px;
     border-radius: 10px;
     box-shadow: 10px 0px 10px 0px white;
     color: red ;
@@ -43,14 +51,30 @@ a{
     text-decoration: none;
 }
 .listheader{
-    background-color: rgba(159, 96, 32, 0.395);
-    height: 40px;
-    margin-top: -50px;
+    background-color: rgba(239, 160, 81, 0.395);
+    height: 150px;
+    width: 140px;
+    margin-top: -140px;
+    margin-left: 20px;  
+    border-radius: 8px; 
+    border: 4px solid orange;
 }
-
+.listheader > #list3{
+position: relative;
+margin-top: 13px;
+}
+.listheader > #list2{ 
+    margin-top: 17px;
+    position: relative;
+  }
+.listheader > #list1{
+    position: relative;
+    margin-top: 10px;
+    margin-right: 3px;
+}
 .ola{
     float: right;
-    margin-top: -150px;
+    margin-top: -310px;
     margin-right: 10px;
     border-radius: 10px;
     background-color: rgb(230, 175, 103);
@@ -58,7 +82,7 @@ a{
 }
 .Titulo{
     position: relative;
-    margin-top: -85px;
+    margin-top: -30px;
     margin-right: -250px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgba(184, 140, 20, 0.685);
@@ -66,6 +90,7 @@ a{
 .footerlinks{
     position: relative;
     padding-left: 40%;
+    margin-top: 0px;
 }
 div{
     margin-top: 0px;
@@ -77,7 +102,7 @@ div p{
 }
 .footerlinks div{
     background-color: rgba(113, 97, 38, 0.944);
-    height: 180px;
+    height: 130px;
     width: 300px;
     border-radius: 15px;
     box-shadow: 20px 10px 20px 10px rgb(119, 91, 41);
@@ -88,86 +113,86 @@ div p{
 
 #image1{
 border: 6px solid rgba(211, 150, 96, 0.571);
-height: 200px;
-width: 150px;
+height: 250px;
+width: 170px;
 display: inline-block;
-margin-left: 10vw;
+margin-left: 8vw;
 margin-top: 70px;
 }
 #image1 img{
     position: relative;
     height: 100%;
-    width: 150px;
+    width: 158px;
     box-shadow: 10px 0px 10px 0px rgb(119, 91, 41);
     
 }
 #image2{
 border: 6px solid rgba(211, 150, 96, 0.571);
 display: inline-block;
-height: 200px;
-width: 150px;
+height: 250px;
+width: 170px;
 margin-left: 10vh;
 margin-top: 70px;
 }
 #image2 img{
     position: relative;
     height: 100%;
-    width: 150px;
+    width: 158px;
     box-shadow: 10px 0px 10px 0px rgb(119, 91, 41);
 }
 #image3{
 border: 6px solid rgba(211, 150, 96, 0.571);
 display: inline-block;
-height: 200px;
-width: 150px;
+height: 250px;
+width: 170px;
 margin-left: 10vh;
 margin-top: 70px;
 }
 #image3 img{
     position: relative;
     height: 100%;
-    width: 150px;
+    width: 158px;
     box-shadow: 10px 0px 10px 0px rgb(119, 91, 41);
 }
 #image4{
 border: 6px solid rgba(211, 150, 96, 0.571);
 display: inline-block;
-height: 200px;
-width: 150px;
+height: 250px;
+width: 170px;
 margin-left: 10vh;
 margin-top: 70px;
 }
 #image4 img{
     position: relative;
     height: 100%;
-    width: 150px;
+    width: 158px;
     box-shadow: 10px 0px 10px 0px rgb(119, 91, 41);
 }
 #image5{
 border: 6px solid rgba(211, 150, 96, 0.571);
 display: inline-block;
-height: 200px;
-width: 150px;
+height: 250px;
+width: 170px;
 margin-left: 10vh;
 margin-top: 70px;
 }
 #image5 img{
 position: relative;
     height: 100%;
-    width: 150px;
+    width: 158px;
     box-shadow: 10px 0px 10px 0px rgb(119, 91, 41);
 }
 #image6{
 border: 6px solid rgba(211, 150, 96, 0.571);
 display: inline-block;
-height: 200px;
-width: 150px;
+height: 250px;
+width: 170px;
 margin-left: 10vh;
 margin-top: 70px;
 }
 #image6 img{
 position: relative;
     height: 100%;
-    width: 150px;
+    width: 158px;
     box-shadow: 10px 0px 10px 0px rgb(119, 91, 41);
 }
