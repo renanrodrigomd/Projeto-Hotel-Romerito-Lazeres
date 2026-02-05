@@ -13,7 +13,11 @@ main{
 footer{
 border: 2px  solid rgba(194, 144, 90, 0.316);
 background-color: rgba(175, 111, 43, 0.31);
-height: 27vh;
+height: 29vh;
+}
+
+#main_div{
+    display: flex; 
 }
 
 
@@ -28,21 +32,22 @@ margin-top: -10px;
 a{
     float: left;
     margin-top: 0px;
-    background-color: rgba(180, 160, 124, 0.845);
+    background-color: rgba(255, 253, 250, 0.582);
     margin-left: 350px;
     border: 2px solid white;
     font-size: 28px;
     border-radius: 10px;
     box-shadow: 10px 0px 10px 0px white;
-    color: rgb(207, 86, 86);
+    color: red ;
     text-shadow: 2px  rgb(207, 86, 86);
+    text-decoration: none;
 }
 .listheader{
     background-color: rgba(159, 96, 32, 0.395);
     height: 40px;
     margin-top: -50px;
-
 }
+
 .ola{
     float: right;
     margin-top: -150px;
@@ -77,6 +82,9 @@ div p{
     border-radius: 15px;
     box-shadow: 20px 10px 20px 10px rgb(119, 91, 41);
 }
+.mainpage{
+    display: flex;
+}
 
 #image1{
 border: 6px solid rgba(211, 150, 96, 0.571);
@@ -84,13 +92,14 @@ height: 200px;
 width: 150px;
 display: inline-block;
 margin-left: 10vw;
-margin-bottom: -70px;
+margin-top: 70px;
 }
 #image1 img{
     position: relative;
     height: 100%;
     width: 150px;
     box-shadow: 10px 0px 10px 0px rgb(119, 91, 41);
+    
 }
 #image2{
 border: 6px solid rgba(211, 150, 96, 0.571);
@@ -98,7 +107,7 @@ display: inline-block;
 height: 200px;
 width: 150px;
 margin-left: 10vh;
-margin-top: 0px;
+margin-top: 70px;
 }
 #image2 img{
     position: relative;
@@ -112,7 +121,7 @@ display: inline-block;
 height: 200px;
 width: 150px;
 margin-left: 10vh;
-margin-top: -40px;
+margin-top: 70px;
 }
 #image3 img{
     position: relative;
@@ -126,7 +135,7 @@ display: inline-block;
 height: 200px;
 width: 150px;
 margin-left: 10vh;
-margin-top: 20px;
+margin-top: 70px;
 }
 #image4 img{
     position: relative;
@@ -140,7 +149,7 @@ display: inline-block;
 height: 200px;
 width: 150px;
 margin-left: 10vh;
-margin-top: -40px;
+margin-top: 70px;
 }
 #image5 img{
 position: relative;
@@ -154,7 +163,7 @@ display: inline-block;
 height: 200px;
 width: 150px;
 margin-left: 10vh;
-margin-top: 80px;
+margin-top: 70px;
 }
 #image6 img{
 position: relative;
